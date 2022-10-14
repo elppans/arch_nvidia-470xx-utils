@@ -8,7 +8,7 @@ cd ~/Downloads
 git clone https://aur.archlinux.org/nvidia-470xx-utils.git
 cd nvidia-470xx-utils
 mv PKGBUILD PKGBUILD.BKP
-curl -O LINK
+curl -O https://raw.githubusercontent.com/elppans/arch_nvidia-470xx-utils/main/PKGBUILD
 makepkg -siLc --needed --noconfirm
 sudo nvidia-xconfig
 ```
